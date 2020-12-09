@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.active{
+    background: beige;
+}
+
+.box{
+   float: left;
+   width: 500px;
+   margin: 100px auto;
+   margin-left: 85px;
+   margin-top: 80px;
+   background: rgba(209, 106, 22, 0.5);
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.box .heading{
+   background: black;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+   font-family: "Rubik";
+   font-size: larger;
+   font-style: italic;
+}
+
+.faqs{
+   padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #f6f6f6;
+   padding: 10px 20px;
+   border-radius: 12px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 12px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+.box1{
+       float: right;
+       width: 500px;
+       margin: 100px auto;
+       margin-right: 85px;
+       margin-top: 80px;
+       background: rgba(209, 106, 22, 0.5);
+       border-radius: 7px;
+       box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+    }
+    
+    .box1 .heading{
+       background: black;
+       border-radius: 7px 7px 0px 0px;
+       padding: 10px;
+       color: #fff;
+       text-align: center;
+       font-family: "Rubik";
+       font-size: larger;
+   font-style: italic;
+    }
+
+details summary{
+   outline: none;
+   text-transform: uppercase;
+}
+
+.header {
+    background-color: #000000;
+    padding: 2%;
+    
+}
+.header a{
+    text-decoration-line: none;
+    color:#ffffff;
+}
+.footer {
+    background-color: #000000;
+    padding: 15px 10px;
+    color:#ffffff;
+    text-align:center;
+    line-height: 30px;
+    font-size:10px;
+}
+#social-media img{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin:0 1% 0 1%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav div#navigation{
+    text-decoration: none;
+    background:rgba(0,0,0,0.1);
+    padding:2%;
+    /*margin:2%;*/
+    text-align:center;
+}
+nav>div>a{
+    color: black;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 4px;  
+}  
+nav>div>a:hover{
+    background:rgba(255, 255, 255, 0.6);
+    color:#000000;
+}
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  float:right;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  right: 0;
+}
+.dropdown-content a {
+  color: black;
+  padding: 4%;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgba(0,0, 0, 0.2);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body>div{   
+    padding:1%;
+    margin:1% 5%;
+} 
+.box .box1 .faqs{
+    display:inline-block;
+}
