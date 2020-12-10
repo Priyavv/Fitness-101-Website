@@ -29,7 +29,7 @@ Technologies used for developing the project
 
 HOW TO EXECUTE:-
 
-1.Save all the pictures except 'contact' and 'meditate' in one folder named 'images'.
+1.Save all the pictures/gifs except 'contact' and 'meditate' in one folder named 'images'.
 
 2.Save common.css and faqcommon.css in one folder names 'css'.
 
